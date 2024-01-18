@@ -34,6 +34,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Rename_1by1_robot")
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002029287584"))
 
+#start msg pic
+LAZY_PIC = os.environ.get("LAZY_PIC", "")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
